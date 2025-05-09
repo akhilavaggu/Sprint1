@@ -1,0 +1,29 @@
+# Resume Screening Rules
+
+1. **Skills Matching**:
+   - Score 1 point for each skill that matches the job description.
+   - Skills related to programming languages like Java, Python, and SQL are prioritized.
+   - Soft skills like communication, teamwork, and leadership are scored lower.
+
+2. **Experience**:
+   - Candidates with 3 or more years of experience in relevant fields get higher scores.
+   - Experience in a similar role or industry is rated higher.
+   - Internships or part-time jobs are scored lower.
+
+3. **Education**:
+   - Candidates with a B.Tech or M.Tech in Computer Science, Software Engineering, or related fields get higher scores.
+   - Candidates with a degree from a top-tier institution score better.
+   - Additional certifications (e.g., AWS Certified, Google Data Engineer) are weighted positively.
+
+4. **Job Description Relevance**:
+   - Resume must be tailored to the job role (e.g., software developer resumes should emphasize programming skills).
+   - Job titles and job descriptions should be aligned with the requirements of the position.
+
+5. **Overall Resume Structure**:
+   - Clear and concise format, well-organized sections.
+   - Spelling and grammatical errors will result in point deductions.
+   - A summary or objective at the beginning can add value.
+
+6. **Bonus**:
+   - Open-source contributions or personal projects related to the role will earn bonus points.
+   - Participation in hackathons, coding competitions, or tech forums is a plus.

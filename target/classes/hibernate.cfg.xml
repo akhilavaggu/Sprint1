@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<hibernate-configuration>
+    <session-factory>
+
+        <!-- JDBC Connection Settings -->
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/resume_screening_db</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">12345678</property>
+
+        <!-- Hibernate Dialect for MySQL 8.x -->
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property>
+
+        <!-- Schema Generation -->
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <!-- SQL Logging -->
+        <property name="hibernate.show_sql">false</property>
+        <property name="hibernate.format_sql">true</property>
+
+        <!-- Session context -->
+        <property name="hibernate.current_session_context_class">thread</property>
+
+        <!-- C3P0 Connection Pooling -->
+        <property name="hibernate.c3p0.min_size">5</property>
+        <property name="hibernate.c3p0.max_size">20</property>
+        <property name="hibernate.c3p0.timeout">300</property>
+        <property name="hibernate.c3p0.max_statements">50</property>
+        <property name="hibernate.c3p0.idle_test_period">3000</property>
+
+        <!-- Entity Mappings -->
+        <mapping class="com.ResumeScreening.entity.User"/>
+        <mapping class="com.ResumeScreening.entity.Resume"/>
+        <mapping class="com.ResumeScreening.entity.Recommendation"/>
+        <mapping class="com.ResumeScreening.entity.Feedback"/>
+        <mapping class="com.ResumeScreening.entity.Skill"/>
+
+    </session-factory>
+</hibernate-configuration>
